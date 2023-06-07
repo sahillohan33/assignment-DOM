@@ -1,0 +1,18 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width:20rem;
+    cursor: pointer;
+    background: red;
+    color:#fff;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 30px;
+}
+#container:hover{
+    width:25rem;
+}

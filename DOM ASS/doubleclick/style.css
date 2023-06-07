@@ -1,0 +1,14 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    background: red;
+    width:20rem;
+    color:#fff;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}

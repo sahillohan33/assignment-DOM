@@ -1,0 +1,14 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+    width:20rem;
+    text-align: center;
+    background: blue;
+    color:white;
+    font-size: 25px;
+    border-radius: 8px;
+}
