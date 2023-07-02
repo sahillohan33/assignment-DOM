@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Password</title>
+    <!-- Adding CSS file  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Email and Password Validation</h1>
+        <form>
+            <div class="emailbox">      
+            <label for="email">Email :</label>
+            <input type="email" id="email" autocomplete="off">
+            <span class="emailText"></span>
+            </div>
+            <div class="passbox">
+            <label for="password">Password :</label>
+            <input type="password"  id="password" autocomplete="off">
+            <span class="passText"></span>
+            </div>
+           <button type="submit" class="btn" onclick="validationPassword()">Submit</button>
+        </form>
+
+    </div>
+    <!-- Adding Javascript file -->
+    <script src="script.js"></script>
+</body>
+</html>

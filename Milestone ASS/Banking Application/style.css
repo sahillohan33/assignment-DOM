@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.container h1{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.125em;
+    color: rgb(55, 56, 57);
+}
+#balance-container{
+    margin-top: 2rem;
+}
+#transaction-container{
+    margin-top: 2rem;
+}
+#amount{
+    width:200px;
+    height: 30px;
+    padding:5px;
+    font-size: 1rem;
+}
+button{
+    padding: 1rem;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    background: #1a581f;
+    color:#fff;
+    letter-spacing: 0.2em;
+}

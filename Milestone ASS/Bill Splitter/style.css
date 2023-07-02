@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+.container h1{
+    color:rgb(71, 71, 71);
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+    margin-top: 2rem;
+}
+
+#billForm .dish,
+#billForm .people{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin-bottom: 1rem;
+}
+
+#billForm .dish label,
+#billForm .people label{
+    color:rgb(48, 46, 46);
+    font-size:1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: capitalize;
+}
+
+#billForm .dish input,
+#billForm .people input{
+    padding:0.9rem;
+    font-size: 1.25rem;
+}
+.btn{
+    padding:1rem;
+    color:#fff;
+    background: green;
+    border:none;
+    outline:none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+#result{
+    color:rgb(53, 50, 50);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-left: 30rem;
+}

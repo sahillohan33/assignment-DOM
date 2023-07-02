@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Bill Calculator</title>
+    <!-- Adding CSS file  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Restaurant Bill Calculator</h1>
+        <form id="billForm">
+            <div class="dish">
+                <label for="dish1">Dish 1 Cost :</label>
+                <input type="number" id="dish1" min="0">
+            </div>
+            <div class="people">
+                <label for="people1">Number of people Sharing Dish 1 :</label>
+                <input type="number" id="people1"  min="0">
+            </div>
+            <div class="dish">
+                <label for="dish1">Dish 2 Cost :</label>
+                <input type="number" id="dish2" min="0">
+            </div>
+            <div class="people">
+                <label for="people2">Number of people Sharing Dish 2 :</label>
+                <input type="number" id="people2" min="0">
+            </div>
+            <button type="submit" class="btn">Calculate Bill</button>
+        </form>
+    </div><div class="result" id="result"></div>
+    <!-- Adding  Javascript file   -->
+    <script src="script.js"></script>
+</body>
+</html>

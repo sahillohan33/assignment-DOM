@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Calculator Car Rental Cost</title>
+    <!-- Adding CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculator Rent Cost</h1>
+    <label for="days">Number of days rent car :</label>
+    <input type="number" name="" id="days" required>
+    <label for="carType">Select Your Car Type :</label>
+    <select name="" id="carType">
+        <option value="Select Car Type" hidden>Select Car Type</option>
+        <option value="Economy">Economy</option>
+        <option value="Midsize">Midsize</option>
+        <option value="Luxury">Luxury</option>
+    </select>
+    <button type="submit" onclick="calculatorRentCost()">Calculate</button>
+    <div id="outputscreen"></div>
+    <!-- Adding javascript file -->
+    <script src="script.js"></script>
+</body>
+</html>
